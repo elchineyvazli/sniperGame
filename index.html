@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Sniper Game</title>
+</head>
+
+<body>
+    <div id="pointContainer">Point : <span id="point"></span></div>
+    <div id="highestContainer">Highest point : <span id="highest"></span></div>
+    <div id="targetsContainer">
+        <div id="finishingLine"></div>
+    </div>
+    <div id="menu">
+        <h1>You lost</h1>
+        <button id="playButton">Play</button>
+        <div id="guns">
+            <div class="gun" id="sniperRifle"></div>
+            <div class="gun" id="pistol"></div>
+            <div class="gun" id="sword"></div>
+        </div>
+        <div id="levels">
+            <button class="level">Easy</button>
+            <button class="level">Medium</button>
+            <button class="level">Hard</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
